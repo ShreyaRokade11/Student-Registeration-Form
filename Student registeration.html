@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+          <h1>Student Registeration Form</h1>
+          <form>
+        <table border="4" cellpadding="15" cellspacing="0" bordercolor="sienna" width="600">
+            <tr>
+                <td>
+                    <!--------------------------------------------------------------------->
+                    <h1 style="background-color:darkgray;"> Personal Details</h1>
+                    <lable>Name:</lable>
+                    <input type="text"  placeholder="Enter Your Name" required> &nbsp;
+
+                    <label>Date Of Birth:</label>
+                    <input type="date" ><br><br>
+                     <!----------------------------------------------------->
+                    <label>address</label>
+                    <input type="text" placeholder="Enter your address" required> &nbsp;
+
+                    <label for="city">City</label>
+                    <input list="namecity" name="list" id="city">
+                    <datalist id="namecity">
+                        <option value="solapur"></option>
+                        <option value="pune"></option>
+                        <option value="mumbai"></option>
+                        <option value="satara"></option>  
+                        <option value="latur"></option>
+                        <option value="kolhapur"></option>
+                        <option value="dharashiv"></option>
+                       <option value="sangli"></option>
+                    </datalist><br><br>
+                  <!---------------------------------->
+                  <h1 style="background-color:darkgray;"> Contact Details</h1>
+                  <label>Email</label>
+                  <input type="email" placeholder="rokade2004@gmail.com" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                  <label >Contact no.</label>
+                  <input type="tel" pattern="[0-9]{10}"><br><br>
+                  <!------------------------------------------------------->
+                  <label>Father's Name:</label>
+                  <input type="text" >&nbsp;&nbsp;
+
+                  <label>Contact no.</label>
+                  <input type="tel" pattern="[0-9]{10}"><br><br>
+
+                  
+                  <label for="gender">GENDER:</label>
+                      <input type="radio" name="gender">Male
+                      <input type="radio" name="gender">Female<br><br>
+
+
+            
+
+                  <!----------------------------->
+                  
+                     <h1 style="background-color:darkgray;"> Other Details</h1>
+                     <label>Select Class:</label>
+                      <select name="" id="">
+                           <option value="">Select Class</option>
+                           <option value="">BCS</option>
+                            <option value="">BCA</option>
+                            <option value="">BBA</option>
+                       </select>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                       <label>Select Course</label>
+                        <input type="checkbox">Java
+                         <input type="checkbox">python
+                         <input type="checkbox">Spring<br><br>
+
+                         <label>Enter Last Year Marks</label>
+                         <input type="number"><br><br>
+
+                         <label>Enter EBC Id:</label>
+                         <input type="number"><br><br>
+
+                         <label>upload Your Photo:</label>
+                         <input type="file"><br><br>
+  
+                          
+                         <label>upload Your Document:</label>
+                         <input type="file"><br><br>
+                    <!--------------------------->
+                    <input type="submit" value="submit">&nbsp;
+                        <input type="reset" value="reset">  
+
+
+
+                 <!------------------------------------------------------------------>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </center>
+</body>
+</html>
